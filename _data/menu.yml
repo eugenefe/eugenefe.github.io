@@ -1,0 +1,23 @@
+# Belongs at: /_data/navigation.yml
+
+- title: Home
+  url: /
+
+- title: About
+  url: /about
+
+- title: Blog
+  url: /year-archive
+
+- title: Resources
+  url: /group/
+  sublinks:
+    - title: Portfolio
+      url: /portfolio 
+    
+    - title: IFRS 17
+      url: /pets
+    - title: K-ICS
+      url: /recipes
+    - title : collection
+      url : /collection-archive
