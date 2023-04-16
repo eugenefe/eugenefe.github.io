@@ -24,6 +24,10 @@
 /* Other ========================================================================== */
 /* Mixins and functions */
 /* Magnific Popup CSS */
+@import url("https://fonts.googleapis.com/css2?family=Actor&family=Overpass&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
 .mfp-counter { font-family: Georgia, Times, serif; }
 
 .mfp-bg { top: 0; left: 0; width: 100%; height: 100%; z-index: 1042; overflow: hidden; position: fixed; background: #000; opacity: 0.8; filter: alpha(opacity=80); }
@@ -1283,3 +1287,31 @@ body { display: -webkit-box; display: -ms-flexbox; display: flex; min-height: 10
   .page__hero-caption a { color: #000 !important; }
   /* Hide the following elements on print ========================================================================== */
   .masthead, .toc, .page__share, .page__related, .pagination, .ads, .page__footer, .page__comments-form, .author__avatar, .author__content, .author__urls-wrapper, .nav__list, .sidebar, .adsbygoogle { display: none !important; height: 1px !important; } }
+.sublist { padding: 0 18px; display: none; overflow: hidden; }
+
+.expanded.sublist { padding: 0 18px; display: block; overflow: hidden; }
+
+.nav__sub-title.expanded .sublist { padding: 0 18px; display: block; overflow: hidden; }
+
+.right-icon { float: right; color: blue-gray; display: inline-block; line-height: 40px; }
+
+.site-title { /* font-family: 'PT Sans Narrow', sans-serif; */ font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1.25em; }
+
+.archive__item-title { font-size: 1.4em; }
+
+.archive__item a[rel="permalink"] { color: #71777c; }
+
+.archive__item a:hover { color: #79b7cc; }
+.archive__item a:visited { color: #7d8387; }
+
+.archive__subtitle { padding-bottom: 1em; color: #5f85b9; }
+
+.site-title img { margin: 0; max-width: 23%; }
+
+p > code { color: #f0555a; font-size: 0.95em; }
+
+body { line-height: 1.65; }
+
+.page__content p, .page__content li, .page__content dl { font-size: 0.9em; }
+
+.center-image { margin: 0 auto; display: block; }
