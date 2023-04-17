@@ -4,20 +4,22 @@
   url: /
 
 - title: About
-  url: /about
+  url: /about/
 
 - title: Blog
-  url: /year-archive
+  url: /year-archive/
 
 - title: Resources
   url: /group/
   sublinks:
     - title: Portfolio
-      url: /portfolio 
+      url: /portfolio/
     
     - title: IFRS 17
       url: /pets
+
     - title: K-ICS
       url: /recipes
-    - title : collection
-      url : /collection-archive
+
+    - title : GMV
+      url : /gmv/epv/

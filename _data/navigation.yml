@@ -18,16 +18,16 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-docs:
- - title: "Quick-Start Guide"
+gmv:
+ - title: "GMV"
    children: 
  - title : "Box Model"
-   url : /box/README/
+   url : /gmv/README/
  - title : "Result of Box"
-   url : /box/epv/
+   url : /gmv/epv/
  - title : "csm"
-   url : /box/csm/
+   url : /gmv/csm/
  - title: "zzz"
    children: 
    - title: "csm All"
-     url: /box/csm/csmAll/
+     url: /gmv/csm/csmAll/
