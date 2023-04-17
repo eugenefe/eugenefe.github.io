@@ -23,6 +23,12 @@ var store = [{
         "url": "/gmv/epv/",
         "teaser": null
       },{
+        "title": "IFRS Introdution",
+        "excerpt":"1.개요 문서개요 IFRS 17 ‘보험계약’은 보험계약의 인식, 측정, 표시 및 공시의 원칙을 정한 국제적으로 통일된 회계기준임. IFRS 17의 도입은 보험계약을 나타내는 관련 정보의 제공으로 재무보고의 비교가능성과 재무보고의 질적 향상을 목적으로 함. 현행 IFRS 4에 비해 많은 변화가 있어 국내 보험산업에 미치는 영향이 클 것으로 예상되며, 원칙중심의 회계기준서 특성 상 기준의...","categories": [],
+        "tags": [],
+        "url": "/ifrs/intro/",
+        "teaser": null
+      },{
         "title": "Baz Boom Identity",
         "excerpt":"Pictures of Goats section West Seattle Blog dingbat newspaper rubber cement Google+ newsroom cafe news.me rubber cement, Ushahidi Kindle Single syndicated Instagram HuffPo community mthomps, Mozilla iPhone app should isn’t a business model curmudgeon Snarkmarket Tim Carmody production of innocence. Fuego tweets community DocumentCloud metered model Gardening &amp; War section...","categories": [],
         "tags": [],
@@ -70,4 +76,4 @@ var store = [{
         "tags": ["content","edge case","layout"],
         "url": "/edge%20case/2009/08/06/edge-case-no-body-content.html",
         "teaser": null
-      },]
+      }]

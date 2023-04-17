@@ -88,10 +88,10 @@ collections:
   docs:
     output: true
     permalink: /:collection/:path/
-  recipes:
+  ifrs:
     output: true
     permalink: /:collection/:path/
-  pets:
+  kics:
     output: true
     permalink: /:collection/:path/
   portfolio:
@@ -136,7 +136,31 @@ defaults:
       author_profile: false
       share: true
       sidebar:
-        nav: "gmv"	
+        nav: "gmv"
+ # _ifrs
+  - scope:
+      path: ""
+      type: ifrs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "ifrs"	
+ # _kics
+  - scope:
+      path: ""
+      type: kics
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "kics"	
 
 # _gmv
   - scope:

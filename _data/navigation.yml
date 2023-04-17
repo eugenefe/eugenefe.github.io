@@ -18,6 +18,33 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
+ifrs:
+ - title: "IFRS 17 White Paper"
+   children: 
+ - title : "Box Model"
+   url : /ifrs/intro/
+ - title : "Result of Box"
+   url : /gmv/epv/
+ - title : "csm"
+   url : /gmv/csm/
+ - title: "zzz"
+   children: 
+   - title: "csm All"
+     url: /gmv/csm/csmAll/
+kics:
+ - title: "KICS"
+   children: 
+ - title : "Box Model"
+   url : /gmv/README/
+ - title : "Result of Box"
+   url : /gmv/epv/
+ - title : "csm"
+   url : /gmv/csm/
+ - title: "zzz"
+   children: 
+   - title: "csm All"
+     url: /gmv/csm/csmAll/
+
 gmv:
  - title: "GMV"
    children: 

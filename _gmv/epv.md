@@ -17,7 +17,7 @@ toc: true
 
 
 EPV , FACE\_AMT, TVOM, FCOST , AOCI 등 프로젝션된 예상 CF를 기반으로 미래의 각 시점 별 Cash Flow단위에서 산출된 각각의 계산 결과를 Box결과로 지칭함.
-{: .notice-info}
+{: .notice--info}
 
 
 

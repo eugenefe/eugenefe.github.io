@@ -16,10 +16,10 @@
       url: /portfolio/
     
     - title: IFRS 17
-      url: /pets
+      url: /ifrs/intro/
 
     - title: K-ICS
-      url: /recipes
+      url: /kics/intro/
 
     - title : GMV
       url : /gmv/epv/
