@@ -459,6 +459,78 @@ tr, td, th { vertical-align: middle; }
 /* ========================================================================== NOTICE TEXT BLOCKS ========================================================================== */
 /** Default Kramdown usage (no indents!): <div class="notice" markdown="1"> #### Headline for the Notice Text for the notice </div> */
 /* Default notice */
+.noticeL { margin: 2em 0 !important; /* override*/ padding: 1em; color: #3d4144; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #f2f3f3; border-radius: 4px; box-shadow: 0 1px 1px rgba(189, 193, 196, 0.25); }
+.noticeL h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
+.page__content .noticeL h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
+.noticeL p:last-child { margin-bottom: 0 !important; /* override*/ }
+.noticeL h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
+.noticeL a { color: #aaaeb0; }
+.noticeL a:hover { color: #5f6162; }
+blockquote.noticeL { border-left-color: #aaaeb0; }
+.noticeL code { background-color: #f8f9f9; }
+.noticeL pre code { background-color: inherit; }
+.noticeL ul:last-child { margin-bottom: 0; /* override*/ }
+
+.noticeL--primary { margin: 2em 0 !important; /* override*/ padding: 1em; color: #3d4144; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #e2e4e5; border-radius: 4px; box-shadow: 0 1px 1px rgba(111, 119, 125, 0.25); }
+.noticeL--primary h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
+.page__content .noticeL--primary h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
+.noticeL--primary p:last-child { margin-bottom: 0 !important; /* override*/ }
+.noticeL--primary h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
+.noticeL--primary a { color: #646b71; }
+.noticeL--primary a:hover { color: #383c3f; }
+blockquote.noticeL--primary { border-left-color: #646b71; }
+.noticeL--primary code { background-color: #f1f1f2; }
+.noticeL--primary pre code { background-color: inherit; }
+.noticeL--primary ul:last-child { margin-bottom: 0; /* override*/ }
+
+.noticeL--info { margin: 2em 0 !important; /* override*/ padding: 1em; color: #3d4144; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #d8ebf1; border-radius: 4px; box-shadow: 0 1px 1px rgba(59, 156, 186, 0.25); }
+.noticeL--info h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
+.page__content .noticeL--info h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
+.noticeL--info p:last-child { margin-bottom: 0 !important; /* override*/ }
+.noticeL--info h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
+.noticeL--info a { color: #358ca7; }
+.noticeL--info a:hover { color: #1e4e5d; }
+blockquote.noticeL--info { border-left-color: #358ca7; }
+.noticeL--info code { background-color: #ebf5f8; }
+.noticeL--info pre code { background-color: inherit; }
+.noticeL--info ul:last-child { margin-bottom: 0; /* override*/ }
+
+.noticeL--waring { margin: 2em 0 !important; /* override*/ padding: 1em; color: #3d4144; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #f7e5cd; border-radius: 4px; box-shadow: 0 1px 1px rgba(214, 127, 5, 0.25); }
+.noticeL--waring h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
+.page__content .noticeL--waring h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
+.noticeL--waring p:last-child { margin-bottom: 0 !important; /* override*/ }
+.noticeL--waring h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
+.noticeL--waring a { color: #c17205; }
+.noticeL--waring a:hover { color: #6b4003; }
+blockquote.noticeL--waring { border-left-color: #c17205; }
+.noticeL--waring code { background-color: #fbf2e6; }
+.noticeL--waring pre code { background-color: inherit; }
+.noticeL--waring ul:last-child { margin-bottom: 0; /* override*/ }
+
+.noticeL--success { margin: 2em 0 !important; /* override*/ padding: 1em; color: #3d4144; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #d9edd9; border-radius: 4px; box-shadow: 0 1px 1px rgba(63, 166, 63, 0.25); }
+.noticeL--success h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
+.page__content .noticeL--success h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
+.noticeL--success p:last-child { margin-bottom: 0 !important; /* override*/ }
+.noticeL--success h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
+.noticeL--success a { color: #399539; }
+.noticeL--success a:hover { color: #205320; }
+blockquote.noticeL--success { border-left-color: #399539; }
+.noticeL--success code { background-color: #ecf6ec; }
+.noticeL--success pre code { background-color: inherit; }
+.noticeL--success ul:last-child { margin-bottom: 0; /* override*/ }
+
+.noticeL--danger { margin: 2em 0 !important; /* override*/ padding: 1em; color: #3d4144; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 1em !important; text-indent: initial; /* override*/ background-color: #fcdfde; border-radius: 4px; box-shadow: 0 1px 1px rgba(238, 95, 91, 0.25); }
+.noticeL--danger h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
+.page__content .noticeL--danger h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
+.noticeL--danger p:last-child { margin-bottom: 0 !important; /* override*/ }
+.noticeL--danger h4 + p { /* remove space above paragraphs that appear directly after notice headline*/ margin-top: 0; padding-top: 0; }
+.noticeL--danger a { color: #d65652; }
+.noticeL--danger a:hover { color: #77302e; }
+blockquote.noticeL--danger { border-left-color: #d65652; }
+.noticeL--danger code { background-color: #fdefef; }
+.noticeL--danger pre code { background-color: inherit; }
+.noticeL--danger ul:last-child { margin-bottom: 0; /* override*/ }
+
 .notice { margin: 2em 0 !important; /* override*/ padding: 1em; color: #3d4144; font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif; font-size: 0.75em !important; text-indent: initial; /* override*/ background-color: #f2f3f3; border-radius: 4px; box-shadow: 0 1px 1px rgba(189, 193, 196, 0.25); }
 .notice h4 { margin-top: 0 !important; /* override*/ margin-bottom: 0.75em; line-height: inherit; }
 .page__content .notice h4 { /* using at-root to override .page-content h4 font size*/ margin-bottom: 0; font-size: 1em; }
