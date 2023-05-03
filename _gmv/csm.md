@@ -2,7 +2,8 @@
 title : 'Result of CSM'
 toc : true
 toc_sticky : true
----
+ref : '3'
+ref_array : ['1', '3']
 
 ---
 
@@ -35,6 +36,7 @@ aasdf
       {{ member.para }}
     </a>
   </li> -->
+
   {% capture desc %}
        {{ member.desc }}
   {% endcapture %}
@@ -47,26 +49,75 @@ aasdf
  </ul> 
 
 # v2
+{{page.ref}}
 
 <ul>
 
 {% for member in site.data.test %}
- 
-  {% capture desc %}
-       {{ member.desc }}
-  {% endcapture %}
+  {% if member.id == page.ref %}
 
-  {% capture temp %}
-    ## {{ member.id }}. {{ member.para }} 
-  {% endcapture %}
-  
-  
-   <h2>{{ member.id }}. {{ member.para }} </h2>
-  {{temp | markdownify}}
-   
-  {{ desc | markdownify}}
-  
+	  {% capture desc %}
+		   {{ member.desc }}
+	  {% endcapture %}
+
+	  {% capture temp %}
+		## {{ member.id }}. {{ member.para }} 
+	  {% endcapture %}
+	  
+	  
+	   <h2>{{ member.id }}. {{ member.para }} </h2>
+	  {{temp | markdownify}}
+	   
+	  {{ desc | markdownify}}
+ {% endif %}
 {% endfor %}
  </ul> 
 
+# v3
+{{page.ref}}
+
+<ul>
+{% assign member = site.data.test[0] %}
+
+
+	  {% capture desc %}
+		   {{ member.desc }}
+	  {% endcapture %}
+
+	  {% capture temp %}
+		## {{ member.id }}. {{ member.para }} 
+	  {% endcapture %}
+	  
+	  
+	   <h2>{{ member.id }}. {{ member.para }} </h2>
+	  {{temp | markdownify}}
+	   
+	  {{ desc | markdownify}}
+
+ </ul> 
+
+# v4
+{{page.ref}}
+
+<ul>
+{% for member in site.data.test %}
+  {% if page.ref_array contains member.id %}
+
+	  {% capture desc %}
+		   {{ member.desc }}
+	  {% endcapture %}
+
+	  {% capture temp %}
+		## {{ member.id }}. {{ member.para }} 
+	  {% endcapture %}
+	  
+	  
+	   <h2>{{ member.id }}. {{ member.para }} </h2>
+	  {{temp | markdownify}}
+	   
+	  {{ desc | markdownify}}
+ {% endif %}
+{% endfor %}
+
+ </ul> 
 
